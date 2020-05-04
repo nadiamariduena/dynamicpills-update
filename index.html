@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <title>MODULE Scripts</title>
+  </head>
+  <body>
+    <div id="page">
+      <!-- --------------------------------------- -->
+      <header>
+        <h1 class="logo">FLUKE</h1>
+        <nav>
+          <ul>
+            <li>programm</li>
+            <li>gallery</li>
+            <li>news</li>
+            <li>info</li>
+          </ul>
+        </nav>
+      </header>
+      <!-- --------------------------------------- -->
+      <div id="top">
+        <div class="box1">
+          <p>not my favorites</p>
+          <p>Movie List</p>
+          <div class="img-box1"></div>
+        </div>
+        <div class="box2"></div>
+      </div>
+
+      <!-- --------------------------------------- -->
+      <div id="middle">
+        <div class="container">
+          <!----TAB--LINKS----->
+          <div class="tabs">
+            <!-- 
+        Each Button will be connected with a respective tab inside 
+        the tabsContent-Wrapper, be careful in adding it.
+       -->
+            <button class="tabLink active" onmouseover="openTab(event, 'tab1')">
+              &#8594;
+            </button>
+            <button class="tabLink" onmouseover="openTab(event, 'tab2')">
+              &#8594;
+            </button>
+            <button class="tabLink" onmouseover="openTab(event, 'tab3')">
+              &#8594;
+            </button>
+            <button class="tabLink" onmouseover="openTab(event, 'tab4')">
+              &#8594;
+            </button>
+            <button class="tabLink" onmouseover="openTab(event, 'tab5')">
+              &#8594;
+            </button>
+            <button class="tabLink" onmouseover="openTab(event, 'tab6')">
+              &#8594;
+            </button>
+            <button class="tabLink" onmouseover="openTab(event, 'tab7')">
+              &#8594;
+            </button>
+            <button class="tabLink" onmouseover="openTab(event, 'tab8')">
+              &#8594;
+            </button>
+          </div>
+          <!----TAB--LINKS---->
+          <!------------------>
+          <!------------------>
+          <!----TAB--CONTENT---->
+          <div class="tabsContent-Wrapper">
+            <div id="tab1" class="tabContent"></div>
+            <!--  -->
+            <div id="tab2" class="tabContent"></div>
+            <!--  -->
+            <div id="tab3" class="tabContent"></div>
+            <!--  -->
+            <div id="tab4" class="tabContent"></div>
+            <!--  -->
+            <div id="tab5" class="tabContent"></div>
+            <!--  -->
+            <div id="tab6" class="tabContent"></div>
+            <!--  -->
+            <div id="tab7" class="tabContent"></div>
+            <!--  -->
+            <div id="tab8" class="tabContent"></div>
+            <!--  -->
+            <!-- END WRAPPER TABS links -->
+          </div>
+          <!--  -->
+        </div>
+      </div>
+      <!-- -----------------bottom---------------------- -->
+
+      <div id="bottom">
+        <iframe
+          src="https://player.vimeo.com/video/27413664?title=0&byline=0&portrait=0"
+          width="640"
+          height="344"
+          frameborder="0"
+          allow="autoplay; fullscreen"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <!-- ---------end page-------------------- -->
+    </div>
+    <!-- --------------------------------------- -->
+    <div id="bread"></div>
+    <!-- --------------------------------------- -->
+    <!-- --------------------------------------- -->
+    <!-- --------------------------------------- -->
+  </body>
+  <script type="module" src="./scripts/index.js"></script>
+  <script src="./scripts/image-anim.js"></script>
+  <!-- NEVER ADD MODULE TO JS files where you are not going to import
+  something, otherwise it will never work -->
+</html>
